@@ -1,6 +1,5 @@
 // 2 Roll the dice 🏁
 
-
 function rollTheDice (turns) {
     let sixCount = 0;
     for (let i = 0; i < turns; i++) {
@@ -18,13 +17,7 @@ function rollTheDice (turns) {
         }
     }
 
-rollTheDice(2)
-rollTheDice(2)
-rollTheDice(2)
-rollTheDice(2)
-rollTheDice(2)
-rollTheDice(2)
-rollTheDice(2)
-rollTheDice(2)
-rollTheDice(2)
+let diceRolls = prompt("How many times would you like to roll the dice?")
+
+rollTheDice(diceRolls);
 
